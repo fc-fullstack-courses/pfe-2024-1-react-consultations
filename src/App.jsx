@@ -1,9 +1,15 @@
 import React from 'react';
-
-import './App.css';
+import CarFunctionalComponent from './components/CarFunctionalComponent';
+import CarClassComponent from './components/CarClassComponent';
+// import './App.css';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <CarFunctionalComponent carName='Toyota' />
+      <CarClassComponent carName='Mitsubishi' />
+    </>
+  );
 }
 
 export default App;
