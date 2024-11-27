@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <CarFunctionalComponent carName='Toyota' />
-      <CarClassComponent carName='Mitsubishi' />
+      <CarClassComponent carName='Lanos' />
     </>
   );
 }
