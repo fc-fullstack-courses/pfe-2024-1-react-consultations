@@ -20,6 +20,12 @@ class CarClassComponent extends React.Component {
     });
   }
 
+  handleBuy = (e) => {
+    const { carName, buyCar } = this.props;
+
+    buyCar(carName);
+  }
+
   render() {
     const { carName } = this.props;
     const { currentSpeed } = this.state;
@@ -30,6 +36,7 @@ class CarClassComponent extends React.Component {
       <p>Поточна швидкість : {currentSpeed}</p>
       <button onClick={this.handleAccelerate}>Прискоритись</button>
       <button onClick={this.handleDecelerate}>Затормозити</button>
+      <button onClick={this.handleBuy}>Купити</button>
     </div>
   }
 }

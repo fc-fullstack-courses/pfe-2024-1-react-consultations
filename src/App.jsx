@@ -1,13 +1,12 @@
 import React from 'react';
-import CarFunctionalComponent from './components/CarFunctionalComponent';
-import CarClassComponent from './components/CarClassComponent';
+import CarShop from './components/CarShop';
+
 // import './App.css';
 
 function App() {
   return (
     <>
-      <CarFunctionalComponent carName='Toyota' />
-      <CarClassComponent carName='Lanos' />
+      <CarShop />
     </>
   );
 }
